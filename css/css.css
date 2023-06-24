@@ -103,7 +103,9 @@ button:hover {
   width: 40%;
 }
 
-#cross2 { display: none; }
+#cross2 {
+  display: none;
+}
 
 .numbers {
   display: flex;
@@ -200,12 +202,11 @@ button:hover {
   align-items: center;
   justify-content: space-between;
   padding: 20px 15%;
-  height: 190px;
 }
 
- .top-footer p {
+.top-footer p {
   width: 30vw;
-} 
+}
 
 #footer-btn {
   background-color: #ffffff;
@@ -231,7 +232,6 @@ button:hover {
 .red {
   flex-direction: column;
   width: 30%;
-
 }
 
 .social {
@@ -242,7 +242,6 @@ button:hover {
   height: 120px;
   justify-content: space-between;
 }
-
 
 .pages {
   display: flex;
@@ -277,13 +276,13 @@ form input {
   width: 63px;
 }
 
-.footer-btm p{
-  color: #8C8C94;
+.footer-btm p {
+  color: #8c8c94;
   font-size: 12px;
   display: flex;
   justify-content: end;
   align-items: center;
-  margin: 0 15vw 2vh 0 ;
+  margin: 0 15vw 2vh 0;
 }
 
 /* RESPONSIVE MOBILE */
@@ -296,9 +295,15 @@ form input {
     margin: 5%;
   }
 
-  #icon-burguer { display: flex; }
-  nav ul { display: none; }
-  nav button { display: none; }
+  #icon-burguer {
+    display: flex;
+  }
+  nav ul {
+    display: none;
+  }
+  nav button {
+    display: none;
+  }
 
   .top-container {
     flex-direction: column;
@@ -308,7 +313,7 @@ form input {
   }
 
   .top-title {
-    box-sizing:border-box;
+    box-sizing: border-box;
     width: 90vw;
     padding: 10%;
     font-size: 40px;
@@ -325,41 +330,48 @@ form input {
     flex-direction: column;
     align-items: start;
     box-sizing: content-box;
-    height: 70vw;
   }
 
   .main-cross p {
     width: 100%;
   }
-  
+
   .main-cross h2 {
     width: 100%;
   }
 
-  #cross1 { display: none; }
-  #cross2 { display: flex; }
+  #cross1 {
+    display: none;
+  }
+  #cross2 {
+    display: flex;
+  }
 
   .numbers {
     background-color: #ffffff;
     padding: 5%;
+    display: block;
   }
 
   .num-subt {
     background-color: rgba(139, 72, 191, 0.3);
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
-    height: 50px;    
+    height: 50px;
+    background-size: 400px;
   }
 
   .numbers article p {
     padding: 0;
     padding-top: 20px;
+    padding-right: 130px;
+    padding-left: 15px;
   }
 
   .best-pj {
     margin: 0;
   }
-  
+
   .best-pj article {
     padding: 40px;
     gap: 10px;
@@ -381,19 +393,28 @@ form input {
     background-color: #3cddf3;
     margin: 0;
     padding: 7%;
-    font-size: 40px;
+    font-size: 44px;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    height: 300px;
+    height: 366px;
     gap: 50px;
   }
 
-  .top-footer p { width: 70vw; height: 400px;} 
+  .top-footer p {
+    color: #fff;
+    text-align: center;
+    width: 324px;
+    line-height: 119.6%;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    height: 230px;
+  }
 
   #footer-btn {
     color: #ffffff;
-    background-color: #232C50;
+    background-color: #232c50;
+    margin: 0;
   }
 
   .footer-main {
@@ -405,7 +426,7 @@ form input {
     padding: 0%;
     gap: 0;
   }
-  
+
   .red {
     display: flex;
     align-items: center;
@@ -413,12 +434,10 @@ form input {
     width: 70%;
   }
 
-
   .social {
     align-items: center;
     width: 100%;
   }
-
 
   .pages {
     gap: 2vh 20vw;
@@ -427,14 +446,14 @@ form input {
     width: 70%;
     height: 150px;
   }
-  
+
   form {
     height: 50px;
     padding-left: 0%;
     width: 80vw;
     margin: 5%;
   }
-  
+
   form input {
     background-color: #ffffff;
     color: #a0a0a0;
@@ -445,12 +464,11 @@ form input {
     padding: 0 10px;
   }
 
-  .footer-btm p{
+  .footer-btm p {
     justify-content: center;
     margin: 0%;
     margin-bottom: 10vh;
     position: relative;
     top: 5vh;
   }
-
 }
